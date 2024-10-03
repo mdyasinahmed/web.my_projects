@@ -93,30 +93,10 @@ header .offcanvas {
 .projects_single_buttons a{
     font-size: .6em;
 }
-/* Ensure the card is positioned relative to contain the absolute sticker */
-.project_single_body {
-    position: relative;
-    /* overflow: hidden; To handle the sticker positioning */
-  }
-  
-  /* Sticker styling */
-  .sticker-top {
-    display: none;
-    position: absolute;
-    top: 0; /* Adjust as needed */
-    right: 50%;
-    width: 100%;
-    transform: translateX(-50%);
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
 
-
+.projects_single_body .card{
+    margin-top: 30px;
+}
 
 
 /* Drop Message Area */
