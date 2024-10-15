@@ -1,0 +1,12 @@
+/* For small devices (max-width: 576px) */
+@media (max-width: 576px) {
+    .projects_single_buttons a{
+        font-size: 1em;
+    }
+}
+/* For medium devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .projects_single_buttons a{
+        font-size: 1.2em;
+    }
+}
